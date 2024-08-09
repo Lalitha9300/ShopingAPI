@@ -1,7 +1,7 @@
 let productmain=document.querySelector("#products")
 let i=1
 function fetchData() {
-    fetch("https://api.escuelajs.co/api/v1/products")//https://fakestoreapi.com/products
+    fetch("https://fakestoreapi.com/products")
     .then((data)=>data.json())
     .then((products)=>{
             products.map((product)=>{
