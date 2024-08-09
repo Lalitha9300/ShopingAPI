@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <!-- -------------------------NAV-------------------- -->
+    <nav>
+        <section>
+            <div id="logo">
+                <img src="https://constant.myntassets.com/web/assets/img/icon.5d108c858a0db793700f0be5d3ad1e120a01a500_2021.png"  height="70%" width="60%">
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">WOMEN</a></li>
+                    <li><a href="">KIDS</a></li>
+                    <li><a href="">HOME & LIVING</a></li>
+                    <li><a href="">BEAUTY</a></li>
+                    <li><a href="">STUDIO</a> <sup>NEW</sup></li>
+                </ul>
+            </div>
+            <div id="search-bar">
+                <a href=""><i class="fa-solid fa-magnifying-glass " style="color: #717288;"></i></a>
+                <input type="text" placeholder="Search for products, brands and more">
+            </div>
+            <div id="icon">
+                <div><img src="/assets/profileIcon.svg" alt="" height="50%" width="35%"></span><span>Profile</span></div>
+                <div><img src="/assets/wishIcon.svg" alt="" height="50%" width="35%"><span>Wishlist</span></div>
+                <div><img src="/assets/bagIcon.svg" alt="" height="50%" width="35%"><span>Bag</span></div>
+            </div>
+        </section>
+    </nav>
+    <!-- -------------------------Main-------------------- -->
+    <main>
+        <div id="heading">
+            <a href="">Home</a><span>/</span>
+            <a href="">Clothing</a><span>/</span>
+            <a href="">Men Clothing</a><span>/</span>
+            <a href="">Shirts</a><span>/</span>
+            <a href="" class="a">Mast & Harbour Shirts</a><span class="a">></span>
+            <a href="" class="a">More By Mast & Harbour</a>
+        </div>
+        <section id="main-container">
+            <section id="photos">
+                <article id="pic1" class="pics"></article>
+                <article id="pic2" class="pics">
+                    <!-- <div><img src="/assets/similar.png" style="height:25px; width:27px">
+                        <h6>VIEW SIMILAR</h6></div> -->
+                </article>
+                <article id="pic3" class="pics"></article>
+                <article id="pic4" class="pics"></article>
+                <article id="pic5" class="pics"></article>
+                <article id="pic6" class="pics"></article>
+
+            </section>
+            <section id="description">
+                <article id="name">
+                    <h1 id="product-name"></h1>
+                    <h2 id="product-title"></h2>
+                    <div id="product-ratings"></div>
+                </article>
+                <article id="price">
+                    <h1 id="product-price"></h1>
+                    <p>inclusive of all taxes</p>
+                    <h5><span>SELECT SIZE</span><span style="color: rgb(243, 74, 74);">SIZE CHART </span></h5>
+                    <div class="size">
+                        <button onclick="sixing()">32</button>
+                        <button onclick="sixing()">34</button>
+                        <button onclick="sixing()">36</button>
+                        <button onclick="sixing()">38</button>
+                    </div>
+                    <div class="btn">
+                        <button class="btn1" onclick="addCart()">ADD TO BAG</button>
+                        <button class="btn2">WISHLIST</button>
+                    </div>
+                </article>
+                <article id="delivery-detail"></article>
+                <!-- <article id="product-detail"></article>
+                <article id="rating"></article> -->
+            </section>
+        </section>
+    </main>
+    <!-- -------------------------Footer-------------------- -->
+    <footer>
+        <section>
+            <article id="foot1">
+                <div class="list1">
+                    <p>ONLINE SHOPING</p>
+                    <a href="">Men</a>
+                    <a href="">Women</a>
+                    <a href="">Kids</a>
+                    <a href="">Home & Living</a>
+                    <a href="">Beauty</a>
+                    <a href="">Gift Cards</a>
+                    <a href="">Myntra Insider</a>
+                    <p>USEFUL LINKS</p>
+                    <a href="">Blog</a>
+                    <a href="">Careers</a>
+                    <a href="">Site Map</a>
+                    <a href="">Corporate Information</a>
+                    <a href="">Whitehat</a>
+                    <a href="">Cleartrip</a>
+                </div>
+                <div class="list2">
+                    <p>CUSTOMER POLICIES</p>
+                    <a href="">Contact Us</a>
+                    <a href="">FAQ</a>
+                    <a href="">T&C</a>
+                    <a href="">Terms Of Use</a>
+                    <a href="">Track Orders</a>
+                    <a href="">Shipping</a>
+                    <a href="">Cancellation</a>
+                    <a href="">Returns</a>
+                    <a href="">Privacy policy</a>
+                    <a href="">Grievance Officer</a>
+                </div>
+                <div class="list3">
+                    <p>EXPERIENCE MYNTRA APP ON MOBILE</p>
+                    <div class="pngs">
+                        <img src="/assets/playStore.png" alt="" style="height: 65%; width: 45%; margin-right: 10px;">
+                        <img src="/assets/appStore.png" alt="" style="height: 65%; width: 45%;">
+                    </div>
+                    <p>KEEP IN TOUCH</p>
+                    <div class="logo">
+                        <img src="/assets/facebook.png" alt="" style="height: 20px; width:20px;margin-right: 15px;">
+                        <img src="/assets/twitter.png" alt="" style="height: 20px; width:20px;margin-right: 15px;">
+                        <img src="/assets/youtube.png" alt="" style="height: 20px; width:20px;margin-right: 15px;">
+                        <img src="/assets/insta.png" alt="" style="height: 20px; width:20px;margin-right: 15px;">
+                        
+                    </div>
+                </div>
+                <div class="list4">
+                    <div class="original">
+                        <img src="/assets/original.png" alt="" style="height: 90%; width:30%;margin-right: 15px;">
+                        <p><span>100% ORIGINAL </span>guarantee for all products at myntra.com</p>
+                    </div>
+                    <div class="returns">
+                        <img src="/assets/day14.png" alt="" style="height: 90%; width:20%;margin-right: 15px;">
+                        <p><span>Return within 14days </span>of receiving your order</p>
+                    </div>
+                </div>
+            </article>
+            <article id="foot2">
+                <div>
+                    <p>POPULAR SERACHES</p><div></div>
+                </div>
+                <p>Adidas | Arrow | Fila | Online Shopping | Nike | Pepe | Jeans | Puma | United Colors of Benetton | Fastrack | Shorts | Being Human | Skirts | Woodland  Supra | Dresses | Clothing | Jewellery | T-shirts | Shoes | Bags | Watches | Caps | Shirts | Backpacks | Flip Flops | Sunglasses | Kurtas | Lingerie | Jackets  Skechers | Saree | Sandals | Puma Tshirts | Woodland Shoes | Titan Watches | Fastrack Watches | Wrangler Shirts | Adidas Tshirts | Nike Shoes | Roadster Shirts | Casual Shoes | Running Shoes | Nike Sports Shoes | Jeans | Being Human Tshirts | Converse Shoes | Cricket Shoes</p>
+            </article>
+            <article id="foot3">
+                <p>In case of any concern,<a href="">Contact Us</a></p>
+                <p>© 2024 www.myntra.com. All rights reserved.</p>
+                <p>A Flipkart company</p>
+            </article>
+        </section>
+    </footer>
+
+    <script src="./product.js"></script>
+</body>
+</html>
